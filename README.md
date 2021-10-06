@@ -13,6 +13,7 @@
     <li><a href="https://pandas.pydata.org/">Pandas</a> - a fast, powerful, flexible and easy to use open source data analysis and manipulation tool. </li>
     <li><a href="https://numpy.org/">Numpy</a> - a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. </li>
     <li><a href="https://matplotlib.org/">Matplotlib</a> - a plotting library for the Python programming language and its numerical mathematics extension NumPy. </li>
+    <li><a href="https://scikit-learn.org/stable/index.html">Scikit-learn</a> or sklearn - a machine learning and predictive data analysis tool</li>
 </ul>
 
 <p>Trading Pairs List:</p>
