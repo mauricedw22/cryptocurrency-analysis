@@ -19,4 +19,5 @@
 <p>Trading Pairs List:</p>
 <ul style="list-style-type:circle;">
     <li>Xinfin Network (XDC) &amp; Telcoin (TEL) </li>
+    <li>XRP Ledger (XRP) &amp; Stellar Network (XLM) </li>
 </ul>
