@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.dates as dates
 
-xdcData = pd.read_csv('https://crypto-pricing-data.s3.us-east-2.amazonaws.com/tel-xdc-04_15_18-10_03_21.csv')
+xdcData = pd.read_csv('../cryptoData/tel-xdc-04_15_18-10_03_21.csv')
 
 xdcPrice = xdcData[['xdc_price']]
 telPrice = xdcData[['tel_price']]
