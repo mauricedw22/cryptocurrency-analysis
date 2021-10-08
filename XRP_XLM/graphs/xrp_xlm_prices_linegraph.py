@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.dates as dates
 
-xrpData = pd.read_csv('https://crypto-pricing-data.s3.us-east-2.amazonaws.com/xrp-xlm-01_01_18-10_07_21.csv')
+xrpData = pd.read_csv('../cryptoData/xrp-xlm-01_01_18-10_07_21.csv')
 
 xrpPrice = xrpData[['xrp_price']]
 xlmPrice = xrpData[['xlm_price']]
