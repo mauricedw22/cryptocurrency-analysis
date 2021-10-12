@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-correlationData = pd.read_csv('../cryptoData/tel-xdc-04_15_18-10_03_21.csv')
+correlationData = pd.read_csv('<YOUR_CSV_DATA>')
 
 correlation1 = correlationData['xdc_price'].corr(correlationData['tel_price'])
 correlation2 = correlationData['xdc_volume'].corr(correlationData['tel_volume'])
