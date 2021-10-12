@@ -2,11 +2,7 @@
 
 <h3>This repository consists of correlation analysis, graph visualizations, and machine learning models for analyzing cryptocurrency trading pairs. There are particular trading pairs that move peculiarly with one another. This repository dives deeper into my hypotheses for certain trading pairs.</h3>
 
-<p>Python 3.7 is used throughout this repository. Download Python for your OS <a href="https://www.python.org/downloads/">here</a>. 
-    <BR><BR> Sources for data within S3 files (in <a href="https://aws.amazon.com/s3/">Amazon S3</a>) include 
-<a href="https://www.coingecko.com/en">CoinGecko</a> and <a href="https://coinmarketcap.com/">CoinMarketCap</a>. 
-<BR> Data is pre-processed and cleaned in MS Excel.
-</p>
+<p>Python 3.7 is used throughout this repository. Download Python for your OS <a href="https://www.python.org/downloads/">here</a>.</p>
 
 <p>This repository uses several python libraries for machine learning analysis on cryptocurrency pricing data:</p>
 <ul style="list-style-type:circle;">
