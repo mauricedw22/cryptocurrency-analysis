@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 import matplotlib.pyplot as plt
 
-priceData = pd.read_csv('../cryptoData/tel-xdc-04_15_18-10_03_21.csv')
+priceData = pd.read_csv('<YOUR_CSV_DATA>')
 
 tel_price_data = priceData[['tel_price']]
 xdc_price_results = priceData[['xdc_price']]
