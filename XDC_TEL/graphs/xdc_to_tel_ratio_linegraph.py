@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.dates as dates
 
-priceData = pd.read_csv('../cryptoData/tel-xdc-04_15_18-10_03_21.csv')
+priceData = pd.read_csv('<YOUR_CSV_DATA>')
 
 xdc_tel_ratios = priceData[['xdc_tel_ratio']]
 time = priceData[['xdc_date']]
