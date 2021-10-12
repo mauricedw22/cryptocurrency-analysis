@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 import matplotlib.pyplot as plt
 
-priceData = pd.read_csv('https://crypto-pricing-data.s3.us-east-2.amazonaws.com/luna-celo-05_22_20-10_07_21.csv')
+priceData = pd.read_csv('<YOUR_CSV_DATA>')
 
 celo_price_data = priceData[['celo_price']]
 luna_price_results = priceData[['luna_price']]
