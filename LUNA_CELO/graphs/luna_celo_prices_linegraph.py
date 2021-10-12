@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.dates as dates
 
-lunaData = pd.read_csv('https://crypto-pricing-data.s3.us-east-2.amazonaws.com/luna-celo-05_22_20-10_07_21.csv')
+lunaData = pd.read_csv('<YOUR_CSV_DATA>')
 
 celoPrice = lunaData[['celo_price']]
 lunaPrice = lunaData[['luna_price']]
