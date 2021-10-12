@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.dates as dates
 
-priceData = pd.read_csv('https://crypto-pricing-data.s3.us-east-2.amazonaws.com/luna-celo-05_22_20-10_07_21.csv')
+priceData = pd.read_csv('<YOUR_CSV_DATA>')
 
 luna_celo_ratios = priceData[['luna_celo_ratio']]
 time = priceData[['luna_date']]
